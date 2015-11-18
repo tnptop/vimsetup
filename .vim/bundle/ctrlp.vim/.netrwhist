@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/siwatpru/Workspace/react/ultimate-flask-front-end-1/project'
+let g:netrw_dirhist_2='/Users/siwatpru/Workspace/react/ultimate-flask-front-end-1/project/static'
+let g:netrw_dirhist_3='/Users/siwatpru/Workspace/react/ultimate-flask-front-end-1/project/static/css'
+let g:netrw_dirhist_4='/Users/siwatpru/Workspace/react/ultimate-flask-front-end-1'
+let g:netrw_dirhist_5='/Users/siwatpru/Workspace/react'
+let g:netrw_dirhist_6='/Users/siwatpru/Workspace/react/ultimate-flask-front-end-1'
+let g:netrw_dirhist_7='/Users/siwatpru/Workspace/react/ultimate-flask-front-end-1/venv'
+let g:netrw_dirhist_8='/Users/siwatpru/Workspace/react/ultimate-flask-front-end-1'

@@ -4,6 +4,7 @@
 syntax on
 set number
 set t_Co=256
+let mapleader=","
 
 " Turn on the WiLd menu
 set wildmenu
@@ -105,9 +106,12 @@ nmap <silent> <C-T> :NERDTreeToggle<CR>
 let NERDTreeIgnore=['\.pyc$']
 let NERDTreeQuitOnOpen = 1
 
+" NERD commenter
+filetype plugin on
+
 " Airline
 set laststatus=2
-let g:airline_theme='badwolf'
+let g:airline_theme='luna'
 let g:airline_powerline_fonts=1
 set guifont=Sauce_Code_Powerline:h10
 let g:airline#extensions#branch#enabled=1

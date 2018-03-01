@@ -1,4 +1,9 @@
 #!/bin/bash
 
-ln -s ~/vimsetup/vim ~/.vim
-ln -s ~/vimsetup/vimrc ~/.vimrc
+# Symlink .vimrc
+ln -s $(pwd)/vimsetup/vimrc ~/.vimrc
+
+# Setup Vundle
+[[ -d ~/.vim/bundle ]] || mkdir -p ~/.vim/bundle
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+vim +PluginInstall +qall

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Symlink .vimrc
-ln -s $(pwd)/vimsetup/vimrc ~/.vimrc
+ln -s $(pwd)/vimrc ~/.vimrc
 
 # Setup Vundle
 [[ -d ~/.vim/bundle ]] || mkdir -p ~/.vim/bundle

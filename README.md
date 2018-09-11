@@ -1,5 +1,5 @@
 # vimsetup
-Includes all vim-related plugins, configurations, and magic optimized for this repo's owner ([@tgknight](https://github.com/tgknight)).
+Includes all vim-related plugins, configurations, and magic optimized for this repo's owner ([@tnptop](https://github.com/tnptop)).
 [Vundle](https://github.com/VundleVim/Vundle.vim) is used as the plugin manager.
 # Installation
 ```bash

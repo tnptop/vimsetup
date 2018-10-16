@@ -63,8 +63,6 @@ set noswapfile
 map <Tab> <C-W>w
 map <Bar> <C-W>v<C-W><Right>
 map _ <C-W>s<C-W><Down>
-map < <C-W><Left>
-map > <C-W><Right>
 
 " => Others
 " Toggle paste mode with F2

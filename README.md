@@ -3,8 +3,8 @@ Includes all vim-related plugins, configurations, and magic optimized for this r
 [Vundle](https://github.com/VundleVim/Vundle.vim) is used as the plugin manager.
 # Installation
 ```bash
-git clone https://github.com/tnptop/vimsetup.git ~/
-cd ~/vimsetup
+git clone https://github.com/tnptop/vimsetup.git /path/to/clone
+cd /path/to/clone/vimsetup
 ./install.sh
 ```
 # Update

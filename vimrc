@@ -1,6 +1,3 @@
-let g:ycm_server_keep_logfiles = 1
-let g:ycm_server_log_level = 'debug'
-
 " => Vim UI
 syntax on
 set number
@@ -109,6 +106,7 @@ Plugin 'edkolev/tmuxline.vim'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'jeetsukumaran/vim-buffergator'
 Plugin 'jlanzarotta/bufexplorer'
+Plugin 'martinda/Jenkinsfile-vim-syntax'
 Plugin 'mxw/vim-jsx'
 Plugin 'pangloss/vim-javascript'
 Plugin 'scrooloose/nerdtree'
@@ -167,6 +165,7 @@ let g:syntastic_auto_loc_list=1
 let g:syntastic_check_on_open=1
 let g:syntastic_check_on_wq=0
 let g:syntastic_javascript_checkers=['eslint']
+let g:syntastic_python_checkers=['python3']
 
 " Tmuxline
 let g:tmuxline_preset = {
@@ -177,4 +176,8 @@ let g:tmuxline_preset = {
   \'z'      : ['#(whoami)'],
   \'options': {'status-justify': 'left'}
   \}
+
+" YouCompleteMe
+let g:ycm_server_keep_logfiles = 1
+let g:ycm_server_log_level = 'debug'
 

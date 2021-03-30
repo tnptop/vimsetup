@@ -106,16 +106,16 @@ Plugin 'edkolev/tmuxline.vim'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'jeetsukumaran/vim-buffergator'
 Plugin 'jlanzarotta/bufexplorer'
-Plugin 'martinda/Jenkinsfile-vim-syntax'
 Plugin 'mxw/vim-jsx'
 Plugin 'pangloss/vim-javascript'
+Plugin 'rust-lang/rust.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/syntastic'
 Plugin 'ternjs/tern_for_vim'
 Plugin 'tomlion/vim-solidity'
 Plugin 'tpope/vim-fugitive'
-Plugin 'Valloric/YouCompleteMe'
+Plugin 'tpope/vim-surround'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'wakatime/vim-wakatime'
@@ -176,8 +176,4 @@ let g:tmuxline_preset = {
   \'z'      : ['#(whoami)'],
   \'options': {'status-justify': 'left'}
   \}
-
-" YouCompleteMe
-let g:ycm_server_keep_logfiles = 1
-let g:ycm_server_log_level = 'debug'
 

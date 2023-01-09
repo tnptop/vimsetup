@@ -103,18 +103,16 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'edkolev/tmuxline.vim'
+Plugin 'elixir-editors/vim-elixir'
 Plugin 'flazz/vim-colorschemes'
-Plugin 'jeetsukumaran/vim-buffergator'
-Plugin 'jlanzarotta/bufexplorer'
+" Plugin 'jeetsukumaran/vim-buffergator'
+" Plugin 'jlanzarotta/bufexplorer'
 Plugin 'mxw/vim-jsx'
-Plugin 'neoclide/coc.nvim'
+" Plugin 'neoclide/coc.nvim'
 Plugin 'pangloss/vim-javascript'
-Plugin 'rust-lang/rust.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
-Plugin 'scrooloose/syntastic'
-Plugin 'ternjs/tern_for_vim'
-Plugin 'tomlion/vim-solidity'
+" Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'vim-airline/vim-airline'
@@ -137,35 +135,6 @@ nnoremap <C-B> :ToggleBufExplorer<CR>
 
 " Colorscheme
 colorscheme molokai
-
-" Coc
-set encoding=utf-8
-set hidden
-set cmdheight=2
-set updatetime=300
-set shortmess+=c
-if has("patch-8.1.1564")
-  set signcolumn=number
-else
-  set signcolumn=yes
-endif
-inoremap <slient><expr> <TAB>
-      \ pumvisible() ? "\<C-n>" :
-      \ <SID>check_back_space() ? "\<TAB>" :
-      \ coc#refresh()
-inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
-inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()
-                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
-autocmd CursorHold * silent call CocActionAsync('highlight')
-nmap <leader>rn <Plug>(coc-rename)
-if has('nvim-0.4.0') || has('patch-8.2.0750')
-  nnoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#scroll(1) : "\<C-f>"
-  nnoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\<C-b>"
-  inoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? "\<c-r>=coc#float#scroll(1)\<cr>" : "\<Right>"
-  inoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? "\<c-r>=coc#float#scroll(0)\<cr>" : "\<Left>"
-  vnoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#scroll(1) : "\<C-f>"
-  vnoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\<C-b>"
-endif
 
 " CtrlP
 let g:ctrlp_map='<c-p>'
